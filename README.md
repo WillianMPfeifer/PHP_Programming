@@ -1,103 +1,121 @@
 # 📚 Exercícios de PHP
 
-Repositório criado para armazenar e organizar as listas de exercícios da disciplina de Linguagens para programação em Web (PHP).  
-Cada lista aborda conceitos progressivos da linguagem, desde lógica básica até estruturas mais elaboradas.
+Repositório com as listas de exercícios da disciplina de **Linguagens para Programação Web (PHP)**, organizadas por progressão de conteúdo.
 
 ---
 
-## 🗂️ Estrutura do Repositório
+## 🗂️ Estrutura
 
 ```
 /
 ├── README.md
-├── lista1/
-│   └── exercicios.php
-├── lista2/
-│   └── lista2.php
-└── ...
+├── lista1/exercicios.php
+├── lista2/lista2.php
+└── lista3/exercicios.php
 ```
 
 ---
 
 ## 📋 Listas de Exercícios
 
----
-
-### 📁 Lista 1 — Lógica de Variáveis e Atribuições
-
-> **Arquivo:** `lista1/exercicios.php`
-
-Exercícios introdutórios focados em entender como variáveis funcionam em PHP:
-como valores são atribuídos, sobrescritos e como a ordem das instruções impacta o resultado final.
+### Lista 1 — Lógica de Variáveis e Atribuições
+> `lista1/exercicios.php`
 
 | Exercício | Descrição |
 |-----------|-----------|
-| **A** | Atribuição simples de variáveis, exibição intermediária de valor e reatribuição |
-| **B** | Operação de soma entre variáveis, exibição em diferentes momentos e reatribuição |
-| **C** | Cópia de valores entre variáveis — demonstra que variáveis guardam valores, não referências |
+| **A** | Atribuição simples, exibição intermediária e reatribuição |
+| **B** | Soma entre variáveis em diferentes momentos e reatribuição |
+| **C** | Cópia de valores entre variáveis — variáveis guardam valores, não referências |
 | **D** | Incrementos encadeados — cada variável depende do valor atual da anterior |
-| **E** | Cálculo realizado antes de reatribuição — o resultado preserva o valor do momento do cálculo |
-| **F** | Operação de subtração, exibição intermediária e reatribuição com soma |
+| **E** | Cálculo antes de reatribuição — preserva o valor do momento do cálculo |
+| **F** | Subtração, exibição intermediária e reatribuição com soma |
 
-**Conceitos abordados:** atribuição de variáveis, operadores aritméticos básicos (`+`, `-`), `echo`, ordem de execução sequencial.
+**Conceitos:** atribuição, operadores aritméticos (`+`, `-`), `echo`, execução sequencial.
 
 ---
 
-### 📁 Lista 2 — Estruturas de Controle e Funções
-
-> **Arquivo:** `lista2/lista2.php`
-
-Exercícios que introduzem estruturas de decisão, laços de repetição e funções em PHP.
+### Lista 2 — Estruturas de Controle e Funções
+> `lista2/lista2.php`
 
 | Exercício | Descrição |
 |-----------|-----------|
-| **1** | Recebe 4 inteiros e soma apenas os que forem pares usando o operador módulo (`%`) |
-| **2** | Imprime todos os inteiros de 200 a 100 em ordem decrescente com `for` |
-| **3** | Recebe limite inferior e superior e soma todos os números pares do intervalo |
-| **4** | Compara duas strings usando `strcasecmp()` e exibe se são iguais (ignora maiúsculas) |
-| **5** | Lê um número e informa se é positivo, negativo ou zero com `if / elseif / else` |
-| **6** | Recebe nome, sexo e idade — exibe ACEITA se feminino e menos de 25 anos |
-| **7** | Recebe um valor N e imprime todos os inteiros de 0 até N |
-| **8** | Recebe uma string e um caractere, conta as ocorrências com `substr_count()` |
-| **9** | Calculadora com 4 operações básicas — cada operação implementada em uma função separada |
+| **1** | Recebe 4 inteiros e soma apenas os pares (operador `%`) |
+| **2** | Imprime inteiros de 200 a 100 em ordem decrescente com `for` |
+| **3** | Soma todos os números pares entre um limite inferior e superior |
+| **4** | Compara duas strings com `strcasecmp()` (ignora maiúsculas) |
+| **5** | Informa se um número é positivo, negativo ou zero |
+| **6** | Exibe ACEITA se o cadastro for feminino e menor de 25 anos |
+| **7** | Imprime todos os inteiros de 0 até N |
+| **8** | Conta ocorrências de um caractere em uma string com `substr_count()` |
+| **9** | Calculadora com 4 operações, cada uma em uma função separada |
 
-**Conceitos abordados:** `if / elseif / else`, operador `&&`, laço `for`, operador módulo `%`, funções (`function`), `strcasecmp()`, `substr_count()`.
+**Conceitos:** `if/elseif/else`, `for`, `%`, funções, `strcasecmp()`, `substr_count()`.
 
 ---
 
-### 📁 Lista 3 — *(em breve)*
+### Lista 3 — Strings, Arrays e Aplicações Web
+> `lista3/exercicios.php`
 
-> **Arquivo:** `lista3/lista3.php`
-
-*Adicione aqui a descrição da próxima lista quando for entregue.*
+> **Obs.:** Esta lista inclui HTML com formulários (`$_POST`) como exemplo prático de entrada de dados via navegador — não foi um requisito explícito, mas serve de referência.
 
 | Exercício | Descrição |
 |-----------|-----------|
-| — | — |
+| **1** | Compara duas strings e exibe se são iguais |
+| **2** | Conta ocorrências de um caractere com `strlen()` e `substr()` |
+| **3** | Calculadora simples com as 4 operações por escolha do usuário |
+| **4** | Verifica se um número é par ou ímpar |
+| **5** | Exibe uma sequência de números com `for` |
+| **6** | Gera a tabuada de um número |
+| **7** | Percorre e exibe valores de um array com `foreach` |
+| **8** | Soma todos os valores de um array |
+| **9** | Calcula a média dos valores de um array com `count()` |
+| **10** | Array multidimensional com dados de clientes |
+| **11** | Conversão entre Celsius e Fahrenheit com funções |
+| **12** | Soma e média via função com retorno em array |
+| **13** | Inverte uma string com laço de repetição |
+| **14** | Encontra o maior valor de um array |
+| **15** | Encontra o menor valor de um array |
+| **16** | Ordena um array com Bubble Sort |
+
+**Conceitos:** `strlen`, `substr`, arrays simples e multidimensionais, `foreach`, `count`, funções com retorno, Bubble Sort, formulários HTML, `$_POST`.
 
 ---
 
-## 💡 Como usar este README
+## ▶️ Como Executar
 
-Sempre que uma nova lista for adicionada ao repositório:
+### Arquivos sem HTML (PHP puro)
 
-1. Crie uma pasta com o nome da lista (ex: `lista3/`)
-2. Adicione o arquivo `.php` dentro dela
-3. Copie o bloco de template da **Lista 3** acima
-4. Preencha o nome da lista, arquivo, descrição geral e a tabela de exercícios
-5. Atualize a seção de **Estrutura do Repositório**
+**Terminal:**
+```bash
+php lista1/exercicios.php
+```
+
+**VS Code — extensão PHP:**
+Instale a extensão [PHP Runner](https://marketplace.visualstudio.com/items?itemName=recca0120.vscode-phpunit) ou similar. Com o arquivo aberto, use `F1 > Run PHP` ou o atalho configurado pela extensão para executar diretamente no editor.
+
+---
+
+### Arquivos com HTML (Lista 3)
+
+**Servidor embutido do PHP** *(recomendado)*:
+```bash
+php -S localhost:8000
+# Acesse: http://localhost:8000/lista3/exercicios.php
+```
+
+**XAMPP:**
+Mova o projeto para `C:\xampp\htdocs\`, inicie o Apache e acesse `http://localhost/nome-da-pasta`.
 
 ---
 
 ## 🛠️ Tecnologias
 
 - PHP 8+
-- Nenhuma dependência externa — todos os scripts rodam com `php arquivo.php` no terminal
+- Sem dependências externas
 
 ---
 
-## 📝 Observações Gerais
+## 📝 Observações
 
-- Os valores das variáveis estão **fixos no código** (hardcoded), pois ainda não foi abordada a leitura de input do usuário.
-- O fechamento `?>` é **omitido intencionalmente** em arquivos puramente PHP — isso evita problemas com espaços acidentais após a tag.
-- Os arquivos seguem uma nomenclatura simples e sem acentos para compatibilidade entre sistemas.
+- Valores estão **fixos no código** (hardcoded) nas listas que não envolvem formulários.
+- O fechamento `?>` é **omitido intencionalmente** em arquivos PHP puro — evita espaços acidentais após a tag.
