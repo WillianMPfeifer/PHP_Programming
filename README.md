@@ -78,7 +78,38 @@ Repositório com as listas de exercícios da disciplina de **Linguagens para Pro
 | **16** | Ordena um array com Bubble Sort |
 
 **Conceitos:** `strlen`, `substr`, arrays simples e multidimensionais, `foreach`, `count`, funções com retorno, Bubble Sort, formulários HTML, `$_POST`.
-
+ 
+---
+ 
+### Prova I — Revisão Geral (Peso 3)
+> `prova1/ex1.php` até `prova1/ex5.php`
+ 
+> **Obs.:** Exercícios da Prova I da disciplina SIN 1049, aplicada em 24/04/2023. Todos os scripts são PHP puro, sem HTML, com valores fixos no código (hardcoded).
+ 
+| Exercício | Arquivo | Descrição |
+|-----------|---------|-----------|
+| **1** | `ex1.php` | Dado um limite inferior e superior, calcula a soma de todos os números pares do intervalo |
+| **2** | `ex2.php` | Função que recebe duas strings e compara se são iguais, exibindo a mensagem correspondente |
+| **3** | `ex3.php` | Imprime todos os inteiros de 100 a 200 informando se cada um é par ou ímpar |
+| **4** | `ex4.php` | Recebe uma matriz com nome e idade de 15 nadadores e os classifica em Infantil, Juvenil ou Sênior |
+| **5** | `ex5.php` | Processa uma matriz 6x4 de estoque de produtos e calcula totais, maior compra, maior preço unitário e média |
+ 
+**Conceitos:** `for`, `foreach`, `%`, arrays multidimensionais, funções, `implode()`, `count()`, `number_format()`.
+ 
+**Detalhes do Exercício 4 — Categorias de nadadores:**
+ 
+| Categoria | Faixa etária |
+|-----------|-------------|
+| Infantil  | 5 a 10 anos |
+| Juvenil   | 11 a 17 anos |
+| Sênior    | 18 anos ou mais |
+ 
+**Detalhes do Exercício 5 — O que é calculado:**
+- a) Total de unidades, preço unitário e preço total do Produto 4
+- b) Produto mais comprado (maior número de unidades)
+- c) Produto com maior preço unitário
+- d) Média de unidades compradas (soma das unidades / total de produtos)
+ 
 ---
 
 ## ▶️ Como Executar
